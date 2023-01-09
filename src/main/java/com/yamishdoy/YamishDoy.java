@@ -11,7 +11,7 @@ public class YamishDoy extends YamishDataFile {
         DataPack.dataVersion = 10;
         DataPack.load(10);
 new Technetice().load();
-return DataPack.dataVersion + new Technetice().load() + DataPack.load(20);
+return DataPack.dataVersion  + DataPack.load(20);
     }
 
     @Override
