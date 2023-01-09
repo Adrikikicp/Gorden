@@ -74,8 +74,8 @@ publishing {
                 url = 'http://yamishdoy.com/'
                 scm {
                     connection = 'scm:git:git://github.com/Adrikikicp/Gorden.git'
-                    developerConnection = 'scm:git:ssh://github.com:MockBukkit/MockBukkit.git'
-                    url = "https://github.com/MockBukkit/MockBukkit/tree/v${gradle.ext.apiVersion}"
+                    developerConnection = 'scm:git:ssh://github.com:Adrikikicp/Gorden.git'
+                    url = "https://github.com/Adrikikicp/Gorden/tree/main"
                 }
                 licenses {
                     license {
@@ -89,7 +89,7 @@ publishing {
                         name = 'Enrique Perez C.'
                         email = 'adrikikicp@gmail.com'
                     }
-                    
+
                 }
             }
         }
