@@ -39,14 +39,12 @@ jobs:
 
       - name: Store Private key
         uses: DamianReeves/write-file-action@v1.1
-        if: ${{ steps.bump-semver.outputs.new_version != null }}
         with:
           path: private.key
           contents: ${{ secrets.PRIV_KEY }}
           write-mode: overwrite
 
       - name: Publish
-        if: ${{ steps.bump-semver.outputs.new_version != null }}
         env:
           OSSRH_PASSWORD: ${{ secrets.OSSRH_PASSWORD }}
           SIGN_KEY: ${{ secrets.PRIV_KEY_PASS }}
