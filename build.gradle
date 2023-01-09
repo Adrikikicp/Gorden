@@ -100,7 +100,8 @@ publishing {
 nexusPublishing {
     repositories {
         sonatype{
-
+            username = findProperty('ossrhUsername')
+            password = findProperty('ossrhPassword')
         }
 
         myNexus {
