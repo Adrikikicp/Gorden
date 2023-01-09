@@ -7,7 +7,7 @@ public class YamishDataFile {
     public int whereGoes(){
 
         LOGGER.info(MARKER,"Loaded data where goes");
-        return DataPack.load(10) + new Technetice().create();
+        return DataPack.load(10);
 
     }
 
