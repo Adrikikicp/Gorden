@@ -3,7 +3,7 @@ package com.yamishdoy;
 import com.yamishdoy.data.YamishDataFile;
 import net.enriquitomc.data.DataPack;
 import net.enriquitomc.Technetice;
-import org.apache.log4j.LogManager;
+import org.apache.logging.log4j.*;
 
 
 public class YamishDoy extends YamishDataFile {
