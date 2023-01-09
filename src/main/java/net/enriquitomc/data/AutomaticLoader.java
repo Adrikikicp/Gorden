@@ -1,7 +1,7 @@
 package net.enriquitomc.data;
 
 import net.enriquitomc.Technetice;
-import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.*;
 
 public class AutomaticLoader {
     public static final AutomaticLoader INSTANCE = new AutomaticLoader();
