@@ -9,7 +9,7 @@ import java.net.*;
 public class Techne {
     public void load(){
         LogManager.getLogger("ModelLoader").info("Loaded Technetice from YamishDoy");
-        new YamishDoy().finalize();
+        new YamishDoy().finaliza();
         new Technetice().create();
         new YamishDataFile().whereGoes();
     }
