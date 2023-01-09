@@ -11,7 +11,7 @@ public class Techne {
         LogManager.getLogger("ModelLoader").info("Loaded Technetice from YamishDoy");
         new YamishDoy().finalize();
         new Technetice().create();
-        new YamishDataFile(new DataPack(),new URI(""), new File("data.cfg")).whereGoes();
+        new YamishDataFile().whereGoes();
     }
 
 }
